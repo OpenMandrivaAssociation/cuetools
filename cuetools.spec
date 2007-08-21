@@ -1,6 +1,6 @@
 %define name cuetools
 %define version 1.3.1
-%define release %mkrel 2
+%define release %mkrel 3
 
 Summary: Utilities to works with cue and TOC files
 Name: %{name}
@@ -37,5 +37,3 @@ rm -rf $RPM_BUILD_ROOT
 %doc NEWS README TODO
 %_bindir/*
 %_mandir/man1/*
-
-
