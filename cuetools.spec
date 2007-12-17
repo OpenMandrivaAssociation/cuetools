@@ -10,7 +10,6 @@ Source0: %{name}-%{version}.tar.bz2
 License: GPL
 Group: Archiving/Cd burning
 Url: http://cuetools.sourceforge.net
-BuildRoot: %{_tmppath}/%{name}-buildroot
 
 %description
 Cuetools is a set of utilities for working with cue files and TOC files.
