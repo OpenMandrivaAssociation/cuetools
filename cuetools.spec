@@ -1,6 +1,6 @@
 %define name cuetools
 %define version 1.3.1
-%define release %mkrel 5
+%define release %mkrel 6
 
 Summary: Utilities to works with cue and TOC files
 Name: %{name}
