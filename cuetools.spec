@@ -1,12 +1,13 @@
 %define name cuetools
 %define version 1.3.1
-%define release %mkrel 7
+%define release %mkrel 8
 
 Summary: Utilities to works with cue and TOC files
 Name: %{name}
 Version: %{version}
 Release: %{release}
 Source0: %{name}-%{version}.tar.bz2
+Source1: cuetag.sh
 License: GPL
 Group: Archiving/Cd burning
 Url: http://cuetools.sourceforge.net
@@ -28,6 +29,8 @@ on cue/TOC information, and track breakpoint printing.
 rm -rf $RPM_BUILD_ROOT
 
 %makeinstall_std
+
+install -m 755 %{SOURCE1} $RPM_BUILD_ROOT%{_bindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
