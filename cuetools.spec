@@ -5,7 +5,7 @@
 Summary: Utilities to works with cue and TOC files
 Name: %{name}
 Version: %{version}
-Release: %{release}
+Release:	1
 Source0: %{name}-%{version}.tar.bz2
 Source1: cuetag.sh
 License: GPL
