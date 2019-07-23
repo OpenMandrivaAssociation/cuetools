@@ -8,6 +8,7 @@ License: GPL
 Group: Archiving/Cd burning
 Url: http://cuetools.sourceforge.net
 BuildRequires:	bison
+BuildRequires:	flex
 
 %description
 Cuetools is a set of utilities for working with cue files and TOC files.
