@@ -7,6 +7,7 @@ Source1: cuetag.sh
 License: GPL
 Group: Archiving/Cd burning
 Url: http://cuetools.sourceforge.net
+BuildRequires:	bison
 
 %description
 Cuetools is a set of utilities for working with cue files and TOC files.
