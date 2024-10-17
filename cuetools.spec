@@ -6,7 +6,7 @@ Source0: https://github.com/svend/cuetools/archive/%{version}.tar.gz
 Source1: cuetag.sh
 License: GPL
 Group: Archiving/Cd burning
-Url: http://cuetools.sourceforge.net
+Url: https://cuetools.sourceforge.net
 BuildRequires:	bison
 BuildRequires:	flex
 
